@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusively Elite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fab fa-twitch "></i> Group 4
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+    </nav>
+
+    <main class="hero-container">
+        <div class="text-content">
+            <h1>Group 4<br><span class="highlight"></span>Lifelabs</h1>
+            <p>
+               Don't miss out on our stream!
+            </p>
+            <div class="btn-group">
+                <button class="btn btn-primary">Our Twitch channel!<i class="fab fa-twitch"></i></button>
+            </div>
+        </div>
+
+        <div class="media-content">
+            <div class="card poster-card">
+                <div class="card-inner">
+                    <img src="Group 4 Promotional Poster.jpg" alt="Creative Poster" class="card-img">
+                </div>
+            </div>
+
+            <div class="card video-card">
+                <div class="card-inner">
+                    <h2>Click to see</h2>
+                    <video class="card-video-preview" src="promovid.mp4" muted loop playsinline></video>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="video-modal">
+        <div class="modal-content">
+            <video id="full-video" controls>
+                <source src="promovid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <div class="modal" id="image-modal">
+        <div class="modal-content">
+            <img id="full-image" src="" alt="Zoomed Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
