@@ -46,21 +46,20 @@
                 </div>
             </div>
 
-            <div class="card video-card">
-                <div class="card-inner">
-                    <h2>Click to see</h2>
-                    <img class="card-video-preview" src="https://img.youtube.com/vi/Dt9C8UNnjAY/hqdefault.jpg" alt="Video Preview" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
+       <div class="card video-card" onclick="window.open('https://www.youtube.com/watch?v=Dt9C8UNnjAY', '_blank')" style="cursor: pointer;">
+            <div class="card-inner">
+                <h2>Click to see</h2>
+                <img class="card-video-preview" src="https://img.youtube.com/vi/Dt9C8UNnjAY/hqdefault.jpg" alt="Video Preview" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
         </div>
     </main>
+
 
     <div class="modal" id="image-modal">
         <div class="modal-content">
             <img id="full-image" src="" alt="Zoomed Image">
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
